@@ -1,3 +1,3 @@
-# Java-SE
+# Java Fundamentals ☕️
 
-This repo contains Java SE fundamentals
+This repo contains Java fundamentals
