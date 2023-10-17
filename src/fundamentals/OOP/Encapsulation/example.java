@@ -7,11 +7,23 @@ public class example {
 
     public static void main(String[] args) {
         EnCar enCar = new EnCar("Chevrolet", "camero", 2023);
+        //EnCar enCar1 = new EnCar("Ford", "Mustang", 2022);
+        EnCar enCar1 = new EnCar(enCar);
 
         enCar.setYear(2024);
+        System.out.println(enCar);
+        System.out.println(enCar1);
+        System.out.println();
 
         System.out.println(enCar.getModel());
         System.out.println(enCar.getMake());
         System.out.println(enCar.getYear());
+        System.out.println();
+
+        System.out.println(enCar1.getModel());
+        System.out.println(enCar1.getMake());
+        System.out.println(enCar1.getYear());
+        System.out.println();
+
     }
 }

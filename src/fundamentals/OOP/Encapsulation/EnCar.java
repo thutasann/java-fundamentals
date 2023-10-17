@@ -11,6 +11,10 @@ public class EnCar {
         this.setYear(year);
     }
 
+    EnCar(EnCar x){
+        this.copy(x);
+    }
+
     public String getMake(){
         return make;
     }
@@ -33,6 +37,12 @@ public class EnCar {
 
     public void setYear(int year){
         this.year = year;
+    }
+
+    public void copy(EnCar x){
+        this.setMake(make);
+        this.setModel(model);
+        this.setYear(year);
     }
 
 }
